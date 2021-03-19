@@ -15,6 +15,7 @@
 		043FB3D62604934600196CFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 043FB3D42604934600196CFC /* LaunchScreen.storyboard */; };
 		043FB3E12604934600196CFC /* TestHeaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043FB3E02604934600196CFC /* TestHeaderTests.swift */; };
 		043FB3EC2604934600196CFC /* TestHeaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043FB3EB2604934600196CFC /* TestHeaderUITests.swift */; };
+		043FB3FD2604936300196CFC /* InvisibleHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043FB3FC2604936300196CFC /* InvisibleHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		043FB3E72604934600196CFC /* TestHeaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestHeaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		043FB3EB2604934600196CFC /* TestHeaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHeaderUITests.swift; sourceTree = "<group>"; };
 		043FB3ED2604934600196CFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		043FB3FC2604936300196CFC /* InvisibleHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvisibleHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				043FB3C92604934500196CFC /* AppDelegate.swift */,
 				043FB3CB2604934500196CFC /* SceneDelegate.swift */,
 				043FB3CD2604934500196CFC /* ViewController.swift */,
+				043FB3FC2604936300196CFC /* InvisibleHeader.swift */,
 				043FB3CF2604934500196CFC /* Main.storyboard */,
 				043FB3D22604934600196CFC /* Assets.xcassets */,
 				043FB3D42604934600196CFC /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				043FB3CE2604934500196CFC /* ViewController.swift in Sources */,
+				043FB3FD2604936300196CFC /* InvisibleHeader.swift in Sources */,
 				043FB3CA2604934500196CFC /* AppDelegate.swift in Sources */,
 				043FB3CC2604934500196CFC /* SceneDelegate.swift in Sources */,
 			);
